@@ -1,9 +1,9 @@
 import './OrgInfo.css'
 
 const OrgInfo = () => {
-  
+
   return (
-    <section>
+    <section className="org-info-container row">
       What we do collapsible menu
     </section>
   )

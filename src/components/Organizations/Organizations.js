@@ -3,7 +3,7 @@ import './Organizations.css'
 const Organizations = () => {
 
   return (
-    <section>
+    <section className="organizations-container row">
       Our Organizations
     </section>
   )

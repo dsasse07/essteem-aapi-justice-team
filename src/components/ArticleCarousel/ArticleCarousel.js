@@ -2,7 +2,7 @@ import './ArticleCarousel.css'
 
 const ArticleCarousel = () => {
   return (
-    <div>
+    <div className="article-container row">
       Article Carousel
     </div>
   )

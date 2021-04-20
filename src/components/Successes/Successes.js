@@ -3,7 +3,7 @@ import './Successes.css'
 const Successes = () => {
 
   return (
-    <section>
+    <section className="successes-container row">
       Successes
     </section>
   )

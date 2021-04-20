@@ -9,7 +9,7 @@ import './App.css';
 const App = () => {
 
   return (
-    < >
+    <div className="container-lg">
       <Header />
       <main>
         <ArticleCarousel />
@@ -18,7 +18,7 @@ const App = () => {
         <Organizations />
       </main>
       <Footer />
-    </>
+    </div>
   );
 
 }
