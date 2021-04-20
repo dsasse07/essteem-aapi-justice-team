@@ -1,4 +1,4 @@
 .organizations-container{
-  background: lavender;
+  background: var(--orange);
   height: 50vh;
 }

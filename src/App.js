@@ -5,6 +5,7 @@ import Successes from './components/Successes/Successes';
 import Organizations from './components/Organizations/Organizations'
 import Footer from './components/Footer/Footer'
 import './App.css';
+import './theme/colors.css'
 
 const App = () => {
 
