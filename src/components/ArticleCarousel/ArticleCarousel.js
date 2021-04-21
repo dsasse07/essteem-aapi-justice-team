@@ -1,38 +1,44 @@
 import './ArticleCarousel.css'
+import Carousel from 'react-bootstrap/Carousel'
+import slide1 from './assets/article-slide-01.png'
+import slide2 from './assets/article-slide-02.png'
+import slide3 from './assets/article-slide-03.png'
 
 const ArticleCarousel = () => {
   return (
     <div className="article-container row">
-      <div id="ArticleCarousel" className="carousel slide" data-ride="carousel">
-            <ol className="carousel-indicators">
-                <li data-target="ArticleCarousel" data-slide-to="0" className="active"></li>
-                <li data-target="ArticleCarousel" data-slide-to="1"></li>
-            </ol>
-            <div className="carousel-inner" role="listbox">
-                <div className="carousel-item active">
-                    <img className="d-block w-100" src="../assets/article-slide-01.png" alt="First Slide"></img> 
-                    <div className="carousel-caption">
-                        <h3>first slide</h3>
-                        <p>paragraph text</p>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <img className="d-block w-100" src="" alt="Second Slide"></img>
-                    <div className="carousel-caption">
-                        <h3>second slide</h3>
-                        <p>paragraph text</p>
-                    </div>
-                </div>
-                <a className="carousel-control-prev" href="#ArticleCarousel" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#ArticleCarousel" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-      </div>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={slide1}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <a href="https://www.theatlantic.com/politics/archive/2021/03/anti-asian-harassments-long-history-america/618211/" target="_blank" rel="noopener"><h3>What it's like when racism comes for you</h3></a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={slide2}
+            alt="Secondslide"
+          />
+          <Carousel.Caption>
+            <a href="https://www.papermag.com/help-stop-hate-crimes-asian-americans-2651116989.html?rebelltitem=24#rebelltitem24" target="_blank" rel="noopener"><h3>How to help stop hate crimes against Asian Americans</h3></a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+            <img
+            className="d-block w-100"
+            src={slide3}
+            alt="ThirdSlide"
+            />
+            <Carousel.Caption>
+                <a href="https://www.npr.org/transcripts/978832077" target="_blank" rel="noopener"><h3>The History of Anti-Asian Sentiment in the U.S.</h3></a>
+            </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }
