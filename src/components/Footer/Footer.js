@@ -34,6 +34,10 @@ const Footer = () => {
           title="Instagram"
           url="https://www.instagram.com/advancingjustice_aajc/"
         />
+        <SocialLink 
+          title="Share"
+          url="https://www.instagram.com/advancingjustice_aajc/"
+        />
       </div>
 
       <div className="disclaimer-container">
