@@ -11,8 +11,6 @@ const Header = ({currentLanguage, onChangeLang}) => {
   const { t } = useTranslation()
 
   useEffect( () => {
-    console.log( breakpoints.md)
-
     setIsMobile( breakpoints.md )
   }, [breakpoints.md])
 
