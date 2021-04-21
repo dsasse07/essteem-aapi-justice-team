@@ -3,33 +3,33 @@ import './ArticleCarousel.css'
 const ArticleCarousel = () => {
   return (
     <div className="article-container row">
-      <div id="artical-carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="artical-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="artical-carousel" data-slide-to="1"></li>
+      <div id="ArticleCarousel" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="ArticleCarousel" data-slide-to="0" className="active"></li>
+                <li data-target="ArticleCarousel" data-slide-to="1"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/sample_image01.jpg" alt="First Slide">
-                    <div class="carousel-caption">
+            <div className="carousel-inner" role="listbox">
+                <div className="carousel-item active">
+                    <img className="d-block w-100" src="./assets/article-slide-01.png" alt="First Slide"></img> 
+                    <div className="carousel-caption">
                         <h3>first slide</h3>
                         <p>paragraph text</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/sample_image02.jpg" alt="Second Slide">
-                    <div class="carousel-caption">
+                <div className="carousel-item">
+                    <img className="d-block w-100" src="" alt="Second Slide"></img>
+                    <div className="carousel-caption">
                         <h3>second slide</h3>
                         <p>paragraph text</p>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#artical-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#ArticleCarousel" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#artical-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#ArticleCarousel" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
       </div>
@@ -38,3 +38,6 @@ const ArticleCarousel = () => {
 }
 
 export default ArticleCarousel
+
+
+//  image dimension:   1724 × 1204
