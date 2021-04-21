@@ -15,7 +15,7 @@ const Header = ({currentLanguage, onChangeLang}) => {
   }, [breakpoints.md])
 
   const languages = {
-    en: "🇬🇧 English",
+    en: "🇺🇸 English",
     hi: "🇮🇳 हिंदी (Hindi)",
     vi: "🇻🇳 Tiếng Việt (Vietnamese)",
     ko: "🇰🇷 한국어 (Korean)",
