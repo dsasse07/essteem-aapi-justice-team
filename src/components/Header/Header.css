@@ -1,5 +1,47 @@
 header {
-  height: 15vh;
   max-height: 200px;
-  background: pink;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
+.logo-row {
+  border-top: 1px solid var(--black);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.logo-row > img {
+  width: 50vw;
+  max-width: 250px;
+  margin: 8px 8px;
+}
+
+.logo-row > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  max-width: 250px;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#langSelect {
+  width: 50%;
+  height: 37px;
+  border: 0.5px solid var(--black);
+  border-radius: 8px;
+  box-shadow: 0 0 3px var(--gray);
+  font-size: 1.3rem;
+  margin: 8px;
 }
