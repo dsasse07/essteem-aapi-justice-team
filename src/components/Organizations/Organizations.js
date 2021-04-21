@@ -14,7 +14,7 @@ const Organizations = () => {
         <OrgLink org="Atlanta" color="aja" link="http://www.advancingjustice-aajc.org/" />
         <OrgLink org="Chicago" color="ajc" link="http://www.advancingjustice-aajc.org/" />
         <OrgLink org="Los Angeles" color="ajla" link="http://www.advancingjustice-aajc.org/" />
-      </div>
+      </div> 
     </section>
   )
 }
