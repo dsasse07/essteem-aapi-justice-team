@@ -10,7 +10,7 @@ const ArticleCarousel = () => {
             </ol>
             <div className="carousel-inner" role="listbox">
                 <div className="carousel-item active">
-                    <img className="d-block w-100" src="./assets/article-slide-01.png" alt="First Slide"></img> 
+                    <img className="d-block w-100" src="../assets/article-slide-01.png" alt="First Slide"></img> 
                     <div className="carousel-caption">
                         <h3>first slide</h3>
                         <p>paragraph text</p>
@@ -24,11 +24,11 @@ const ArticleCarousel = () => {
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#ArticleCarousel" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon"></span>
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
                 </a>
                 <a className="carousel-control-next" href="#ArticleCarousel" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon"></span>
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>
             </div>
