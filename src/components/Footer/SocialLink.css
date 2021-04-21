@@ -1,0 +1,19 @@
+.social-link{
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  color: var(--orange);
+}
+
+.social-link > svg {
+  width: 55%;
+  fill: var(--orange);
+}
+
+.social-link > span{
+  display: none;
+}
