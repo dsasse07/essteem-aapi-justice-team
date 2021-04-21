@@ -3,7 +3,6 @@ import './ArticleCarousel.css'
 const ArticleCarousel = () => {
   return (
     <div className="article-container row">
-
       <div id="artical-carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="artical-carousel" data-slide-to="0" class="active"></li>
@@ -34,9 +33,8 @@ const ArticleCarousel = () => {
                 </a>
             </div>
       </div>
-
     </div>
-  )
+  );
 }
 
 export default ArticleCarousel
