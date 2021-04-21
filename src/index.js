@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BreakpointProvider } from './utils/BreakpointProvider'
+import './utils/i18n'
+
+const queries = {
+  sm: '(max-width: 720px)',
+  md: '(max-width: 1024px)',
+  // dark: '(prefers-color-scheme: dark)'
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BreakpointProvider queries={queries} >
+      <App />
+    </BreakpointProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

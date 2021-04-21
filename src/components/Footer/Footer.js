@@ -1,8 +1,11 @@
 import './Footer.css'
 import footerLogo from '../../assets/images/footer-logo.png'
 import SocialLink from './SocialLink'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <footer className="footer-container row">
 
@@ -15,7 +18,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        DONATE TODAY!
+        {t('Donate Today')}
       </a>
 
       <div className="social-container">
@@ -35,16 +38,16 @@ const Footer = () => {
 
       <div className="disclaimer-container">
         <p>
-          Asian Americans Advancing Justice
+          {t('AAAJ')}
         </p>
         <p>
-          Some rights reserved.
+          {t('rights')}
         </p>
         <p>
-          All images used are licensed under the Creative Commons License.
+          {t('Creative Commons')}
         </p>
         <p>
-          Please contact your local affiliate to learn more about our work.
+          {t('Learn More')}
         </p>
       </div>
 

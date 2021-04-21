@@ -1,7 +1,9 @@
 import logoIcon from '../../assets/images/footer-logo.png'
 import './OrgLink.css'
+import { useTranslation } from 'react-i18next'
 
 const OrgLink = ({org, link, color}) => { 
+  const { t } = useTranslation()
 
   return (
     <a
@@ -15,7 +17,7 @@ const OrgLink = ({org, link, color}) => {
       </div>
 
       <div className="col orglink-text">
-        <p>Advancing Justice</p>
+        <p>{t('Advancing Justice')}</p>
         <p>{org}</p>
       </div>
     </a>
