@@ -25,7 +25,7 @@ const Header = () => {
     <header className="row">
 
       <label className="hidden" htmlFor="langSelect">
-        Select Language
+        Select Language 
       </label>
       <select id="langSelect" name="langSelect">
         {languageOptions}
