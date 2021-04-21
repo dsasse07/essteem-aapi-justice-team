@@ -82,8 +82,8 @@ const Header = ({currentLanguage, onChangeLang}) => {
           >
             {t('Donate')}
           </a>
-
         </div>
+        
       </header>
     )
 }
