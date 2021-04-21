@@ -8,13 +8,13 @@ const Organizations = () => {
       <header>
         OUR ORGANIZATIONS
       </header>
-
-      <OrgLink org="AAJC" color="aajc" link="http://www.advancingjustice-aajc.org/" />
-      <OrgLink org="Asian Law Caucus" color="alc" link="http://www.advancingjustice-aajc.org/" />
-      <OrgLink org="Atlanta" color="aja" link="http://www.advancingjustice-aajc.org/" />
-      <OrgLink org="Chicago" color="ajc" link="http://www.advancingjustice-aajc.org/" />
-      <OrgLink org="Los Angeles" color="ajla" link="http://www.advancingjustice-aajc.org/" />
-
+      <div className="orglinks">
+        <OrgLink org="AAJC" color="aajc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org="Asian Law Caucus" color="alc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org="Atlanta" color="aja" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org="Chicago" color="ajc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org="Los Angeles" color="ajla" link="http://www.advancingjustice-aajc.org/" />
+      </div>
     </section>
   )
 }
