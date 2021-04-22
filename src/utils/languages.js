@@ -3,7 +3,8 @@ export const resources = {
     translation: {
       "Select Language": "Select Language",
       "Donate": "DONATE",
-      "Our Organizations": "Our Organizations",
+      "Our Organizations": "OUR ORGANIZATIONS",
+      "Click Below": "CLICK BELOW TO VISIT OUR REGIONAL SITES" ,
       "Advancing Justice": "Advancing Justice",
       "Asian Law Caucus": "Asian Law Caucus",
       "Atlanta": "Atlanta",
@@ -29,7 +30,7 @@ export const resources = {
       "Immigration":"IMMIGRATION RIGHTS",
       "Immigration Desc":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
       "Stand Up": "Help stand up against hate",
-      "Successes":"SUCCESSES"
+      "Successes":"SUCCESS STORIES"
     }
   },
   hi: {
@@ -37,6 +38,7 @@ export const resources = {
       "Select Language": "भाषा का चयन करें",
       "Donate": "दान करना",
       "Our Organizations": "हमारे संगठन",
+      "Click Below": "हमारे क्षेत्रीय साइटों पर जाने के लिए क्लिक करें" ,
       "Advancing Justice": "न्याय को आगे बढ़ाना",
       "Asian Law Caucus": "एशियाई कानून काकस",
       "Atlanta": "अटलांटा",
@@ -62,7 +64,7 @@ export const resources = {
       "Immigration":"इमेजिंग अधिकार",
       "Immigration Desc":"देश भर में एशियाई अमेरिकी और प्रशांत द्वीप समूह के लिए आव्रजन एक महत्वपूर्ण, वर्तमान, जीवन को प्रभावित करने वाला मुद्दा है।",
       "Stand Up": "नफरत के खिलाफ खड़े होने में मदद करें",
-      "Successes":"सफलताओं"
+      "Successes":"सफलता की कहानियां"
     }
   },
   vi: {
@@ -70,6 +72,7 @@ export const resources = {
       "Select Language": "Chọn ngôn ngữ",
       "Donate": "Quyên góp",
       "Our Organizations": "Tổ chức của chúng tôi",
+      "Click Below": "BẤM VÀO DƯỚI ĐÂY ĐỂ THAM QUAN CÁC ĐỊA ĐIỂM KHU VỰC CỦA CHÚNG TÔI" ,
       "Advancing Justice": "Nâng cao công lý",
       "Asian Law Caucus": "Cuộc họp kín về Luật Châu Á",
       "Atlanta": "Atlanta",
@@ -95,7 +98,7 @@ export const resources = {
       "Immigration":"QUYỀN DI TRÚ",
       "Immigration Desc":"Nhập cư tiếp tục là một vấn đề quan trọng, hiện tại, ảnh hưởng đến cuộc sống của người Mỹ gốc Á và các Đảo Thái Bình Dương trên khắp đất nước.",
       "Stand Up": "Giúp đứng lên chống lại sự căm ghét",
-      "Successes":"THÀNH CÔNG"
+      "Successes":"CÂU CHUYỆN THÀNH CÔNG"
     }
   },
   ur: {
@@ -103,6 +106,7 @@ export const resources = {
       "Select Language": "زبان منتخب کریں",
       "Donate": "عطیہ کریں",
       "Our Organizations": "ہماری تنظیمیں",
+      "Click Below": "ہماری علاقائی سائٹوں کا دورہ کرنے کے لئے نیچے کلک کریں" ,
       "Advancing Justice": "ایڈوانسنگ جسٹس",
       "Asian Law Caucus": "ایشی قانون قفقاز",
       "Atlanta": "اٹلانٹا",
@@ -128,7 +132,7 @@ export const resources = {
       "Immigration":"امیگریشن کے حقوق",
       "Immigration Desc":"ملک بھر میں ایشین امریکی اور بحر الکاہل کے جزیروں کے لئے امیگریشن ایک اہم ، حالیہ ، زندگی کو متاثر کرنے والا مسئلہ ہے۔",
       "Stand Up": "نفرت کے خلاف کھڑے ہونے میں مدد کریں",
-      "Successes":"کامیابیاں",
+      "Successes":"کامیابی کی کہانیاں",
     }
   },
   ko: {
@@ -136,6 +140,7 @@ export const resources = {
       "Select Language": "언어 선택",
       "Donate": "기부",
       "Our Organizations": "우리 조직",
+      "Click Below": "우리의 지역 사이트를 방문하려면 아래를 클릭하십시오" ,
       "Advancing Justice": "정의 발전",
       "Asian Law Caucus": "아시아 법률 간부",
       "Atlanta": "애틀랜타",
@@ -161,7 +166,7 @@ export const resources = {
       "Immigration":"이민 권리",
       "Immigration Desc":"이민은 미국 전역의 아시아계 미국인 및 태평양 섬 주민들에게 계속해서 중요한 현재의 삶에 영향을 미치는 문제입니다.",
       "Stand Up": "증오에 맞설 수 있도록 도와주세요",
-      "Successes":"성공"
+      "Successes":"성공 사례"
     }
   },
 };

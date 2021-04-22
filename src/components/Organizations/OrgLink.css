@@ -1,7 +1,6 @@
 .orglink {
   display: flex;
   align-items: center;
-  padding: 6px 8%;
   margin: 20px;
   margin-bottom: 0;
   text-decoration: none;
@@ -9,7 +8,23 @@
   font-size: 1.5rem;
   border: 1px solid var(--gray);
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
+}
+
+.orglink-section{
+  display: flex;
+  width: 400px;
+  overflow: hidden;
+}
+
+
+.orglink-section:last-of-type{
+  padding: 6px 5%;
+}
+
+.orglink-section .city-image {
+  width: 100%;
+  object-fit: cover;
 }
 
 .orglink:hover{
@@ -20,11 +35,11 @@
   margin-bottom: 20px;
 }
 
-.orglink .image-container {
+.orglink-section .image-container {
   width: 38px;
 }
 
-.orglink .image-container > img {
+.orglink-section .image-container > img {
   width: 100%;
   object-fit: contain; 
 }
@@ -51,3 +66,8 @@
   background: var(--aja);
 }
 
+@media (min-width: 1024px){
+  .orglink{
+    max-width: 800px;
+  }
+}
