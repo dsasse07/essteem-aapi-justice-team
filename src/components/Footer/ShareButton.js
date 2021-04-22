@@ -15,7 +15,7 @@ const ShareButton = () => {
     } catch (err) {
       console.log('failed to copy', err)
     }
-  } 
+  }
 
   return (
     <nav className="menu">
