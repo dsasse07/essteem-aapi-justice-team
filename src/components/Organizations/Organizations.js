@@ -8,14 +8,19 @@ const Organizations = () => {
   return (
     <section className="organizations-container row">
       <header>
-        {t('Our Organizations')}
+        <h1>
+          {t('Our Organizations')}
+        </h1>
       </header>
+      <h2>
+        {t('Click Below')}
+      </h2>
       <div className="orglinks">
-        <OrgLink org="AAJC" color="aajc" link="http://www.advancingjustice-aajc.org/" />
-        <OrgLink org={t('Asian Law Caucus')} color="alc" link="http://www.advancingjustice-aajc.org/" />
-        <OrgLink org={t('Atlanta')} color="aja" link="http://www.advancingjustice-aajc.org/" />
-        <OrgLink org={t('Chicago')} color="ajc" link="http://www.advancingjustice-aajc.org/" />
-        <OrgLink org={t('Los Angeles')} color="ajla" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org="AAJC" orgCode="aajc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org={t('Asian Law Caucus')} orgCode="alc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org={t('Atlanta')} orgCode="aja" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org={t('Chicago')} orgCode="ajc" link="http://www.advancingjustice-aajc.org/" />
+        <OrgLink org={t('Los Angeles')} orgCode="ajla" link="http://www.advancingjustice-aajc.org/" />
       </div> 
     </section>
   )
