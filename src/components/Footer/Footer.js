@@ -2,6 +2,7 @@ import './Footer.css'
 import footerLogo from '../../assets/images/footer-logo.png'
 import SocialLink from './SocialLink'
 import { useTranslation } from 'react-i18next'
+import ShareButton from './ShareButton'
 
 const Footer = () => {
   const { t } = useTranslation()
@@ -21,7 +22,7 @@ const Footer = () => {
         {t('Donate Today')}
       </a>
 
-      <div className="social-container">
+      <nav className="social-container">
         <SocialLink 
           title="Twitter"
           url="https://twitter.com/AAAJ_AAJC"
@@ -34,7 +35,10 @@ const Footer = () => {
           title="Instagram"
           url="https://www.instagram.com/advancingjustice_aajc/"
         />
-      </div>
+        <div className="share-container">
+          <ShareButton/>
+        </div>
+      </nav>
 
       <div className="disclaimer-container">
         <p>
