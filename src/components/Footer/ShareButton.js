@@ -14,7 +14,7 @@ const ShareButton = () => {
       setUrlCopied(true)
       setTimeout( () => {
         setUrlCopied(false)
-      }, 1500)
+      }, 7000)
     } catch (err) {
       console.log('failed to copy', err)
     }
@@ -51,12 +51,12 @@ const ShareButton = () => {
           <button
             onClick={handleCopyLink}
             name="Copy Link"
-            className="col-4 d-flex flex-column align-items-center copy_text p-3 mx-3"
+            className={ "col-4 d-flex flex-column align-items-center copy_text p-3 mx-3" + (urlCopied ? " copied" : "")}
             > 
             <div className="menu-item copy_text_share_btn">
               <i className={ urlCopied ? "bi bi-clipboard-check" : "bi bi-clipboard"}></i> 
             </div>
-            Copy Link
+            { urlCopied ? "Copied!" : "Copy Link"}
           </button>
         </div>
       </Modal>

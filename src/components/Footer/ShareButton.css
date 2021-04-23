@@ -127,11 +127,13 @@ a:hover {
 .copy_text {
   background-color: #bbae00c4;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  transition: ease-out 200ms;
 }
 
 .copy_text_share_btn {
   background-color: #bbae00;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  transition: ease-out 200ms;
 }
 
 .copy_text:hover .menu-item,
@@ -143,6 +145,18 @@ a:hover {
 .copy_text:hover .copy_text_share_btn,
 .copy_text:focus .copy_text_share_btn {
   color: #bbae00;
+  text-shadow: none;
+}
+
+.copied:hover.copy_text,
+.copied:focus.copy_text{ 
+  background: #258100;
+  text-shadow: none;
+}
+
+.copied:hover .copy_text_share_btn,
+.copied:focus .copy_text_share_btn {
+  color: #258100;
   text-shadow: none;
 }
 
