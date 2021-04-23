@@ -29,7 +29,22 @@ export const resources = {
       "Immigration":"IMMIGRATION RIGHTS",
       "Immigration Desc":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
       "Stand Up": "Help stand up against hate",
-      "Successes":"SUCCESSES"
+      "Successes":"SUCCESSES",
+
+      "leadership":"leadership",
+      "direct support":"direct support",
+      "advocacy":"advocacy",
+      "bystander trainings":"bystander trainings",
+      "We equip community members with strategies to combat anti-Asian hate and harassment.": "We equip community members with strategies to combat anti-Asian hate and harassment.",
+      "civic engagement": "civic engagement",
+      "immigration rights": "immigration rights",
+
+      "LEADERSHIP":"LEADERSHIP",
+      "DIRECT SUPPORT":"DIRECT SUPPORT",
+      "ADVOCACY":"ADVOCACY",
+      "CIVIC ENGAGEMENT": "CIVIC ENGAGEMENT",
+      "BYSTANDER INTERVENTION TRAININGS":"BYSTANDER INTERVENTION TRAININGS",
+      "Lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
   hi: {
@@ -62,7 +77,23 @@ export const resources = {
       "Immigration":"इमेजिंग अधिकार",
       "Immigration Desc":"देश भर में एशियाई अमेरिकी और प्रशांत द्वीप समूह के लिए आव्रजन एक महत्वपूर्ण, वर्तमान, जीवन को प्रभावित करने वाला मुद्दा है।",
       "Stand Up": "नफरत के खिलाफ खड़े होने में मदद करें",
-      "Successes":"सफलताओं"
+      "Successes":"सफलताओं",
+
+      "leadership":"नेतृत्व",
+      "direct support":"प्रत्यक्ष समर्थन",
+      "advocacy":"वकालत",
+      "bystander trainings":"शिक्षार्थी प्रशिक्षण",
+      "We equip community members with strategies to combat anti-Asian hate and harassment.": "हम एशियाई विरोधी घृणा और उत्पीड़न का मुकाबला करने के लिए समुदाय के सदस्यों को रणनीतियों से लैस करते हैं।",
+      "civic engagement": "सिविक सगाई",
+      "immigration rights": "आव्रजन अधिकार",
+
+      "LEADERSHIP":"नेतृत्व",
+      "DIRECT SUPPORT":"प्रत्यक्ष समर्थन",
+      "ADVOCACY":"वकालत",
+      "CIVIC ENGAGEMENT": "नागरिक अनुबंध",
+      "BYSTANDER INTERVENTION TRAININGS":"बिस्टैंडर इंटरवेंशन ट्रेनिंग",
+      "Lorem": "लोरम इप्सम गाजर, अंडरग्रेजुएट डेवलपर को बढ़ाया, लेकिन वे श्रम और मोटापा जैसे समय और जीवन शक्ति का काम करते हैं। कई साल बाद, जो नथु्रड व्यायाम करते हैं, स्कूल जिले में काम करते हैं, जब तक कि वे इससे लाभ नहीं उठाते हैं। अगर खुशी मिल जाए तो कपिदात उपभोक्ता को होमवर्क करें। एक फुटबॉल के रूप में जाना चाहता है, वह दर्द को दूर करता है, कोई परिणाम नहीं पैदा करता है। अलौकिक कपिडैट ब्लैक असाधारण नहीं हैं, आत्मा के लिए सुखदायक है, अर्थात्, वे उन लोगों के सामान्य कर्तव्यों को छोड़ देते हैं जो आपकी परेशानियों के लिए दोषी हैं। "
+
     }
   },
   vi: {
@@ -95,7 +126,22 @@ export const resources = {
       "Immigration":"QUYỀN DI TRÚ",
       "Immigration Desc":"Nhập cư tiếp tục là một vấn đề quan trọng, hiện tại, ảnh hưởng đến cuộc sống của người Mỹ gốc Á và các Đảo Thái Bình Dương trên khắp đất nước.",
       "Stand Up": "Giúp đứng lên chống lại sự căm ghét",
-      "Successes":"THÀNH CÔNG"
+      "Successes":"THÀNH CÔNG",
+
+      "leadership":"khả năng lãnh đạo",
+      "direct support":"hỗ trợ trực tiếp",
+      "advocacy":"vận động",
+      "bystander trainings":"đào tạo người ngoài cuộc",
+      "We equip community members with strategies to combat anti-Asian hate and harassment.": "Chúng tôi trang bị cho các thành viên cộng đồng các chiến lược để chống lại sự thù ghét và quấy rối chống người châu Á.",
+      "civic engagement": "sự tham gia của công dân",
+      "immigration rights": "quyền nhập cư",
+
+      "LEADERSHIP":"Khả năng lãnh đạo",
+      "DIRECT SUPPORT":"Hỗ trợ trực tiếp",
+      "ADVOCACY":"ADVOCACY",
+      "CIVIC ENGAGEMENT": "Tương tác với công dân",
+      "BYSTANDER INTERVENTION TRAININGS":"Đào tạo CAN THIỆP cho người ngoài cuộc",
+      "Lorem": "Cà rốt Lorem ipsum, nhà phát triển bậc đại học được nâng cao, nhưng chúng làm mất thời gian và sức sống, chẳng hạn như lao động và béo phì. Trong những năm tới, những người không tập thể dục, khu học chánh sẽ làm việc trừ khi họ nhận được lợi thế từ nó. Bài tập về nhà nếu người tiêu dùng cupidatat để tìm thấy niềm vui Anh ta muốn trở thành một cầu thủ bóng đá, anh ta tránh xa nỗi đau, không tạo ra kết quả. Người da đen ngoại lệ không phải là người ngoại lệ, là người xoa dịu tâm hồn, nghĩa là họ từ bỏ nhiệm vụ chung của những người phải đổ lỗi cho những rắc rối của bạn. "
     }
   },
   ur: {
@@ -129,6 +175,21 @@ export const resources = {
       "Immigration Desc":"ملک بھر میں ایشین امریکی اور بحر الکاہل کے جزیروں کے لئے امیگریشن ایک اہم ، حالیہ ، زندگی کو متاثر کرنے والا مسئلہ ہے۔",
       "Stand Up": "نفرت کے خلاف کھڑے ہونے میں مدد کریں",
       "Successes":"کامیابیاں",
+
+      "leadership":"قیادت",
+      "direct support":"براہ راست مدد",
+      "advocacy":"وکالت",
+      "bystander trainings":"بذریعہ ٹریننگ",
+      "We equip community members with strategies to combat anti-Asian hate and harassment.": "ہم کمیونٹی کے ممبروں کو ایشین مخالف نفرت اور ہراساں کرنے کے خلاف حکمت عملی سے لیس کرتے ہیں۔",
+      "civic engagement": "المشاركة المدنيةشہری مشغولیت",
+      "immigration rights": "امیگریشن حقوق",
+
+      "LEADERSHIP":"قیادت",
+      "DIRECT SUPPORT":"براہ راست تعاون",
+      "ADVOCACY":"ایڈووکیسی",
+      "CIVIC ENGAGEMENT": "شہری مشغولیت",
+      "BYSTANDER INTERVENTION TRAININGS":"بزنس انٹرینڈینٹ ٹریننگ",
+      "Lorem": "وقتا فوقتا وقت اور جیالتا ، جیسے مشقت اور موٹاپا کرتے ہیں۔ برسوں کے دوران ، جو ورزش کرتے ہیں ، اسکول کے ضلعی کام کرتے ہیں جب تک کہ وہ اس سے فائدہ اٹھا نہ لیں۔ ہوم ورک اگر کامیڈیٹ صارفین کو خوشی مل جائے تو وہ فٹ بال سیلم بننا چاہتا ہے جس کی وجہ سے وہ درد کو دور کرتا ہے ، اس کا کوئی نتیجہ نہیں نکلتا۔ ماقبل کیپیڈیٹیٹ کالے مستثنیٰ نہیں ہیں ، روح کو راحت بخش ہیں ، یعنی انہوں نے ان لوگوں کے عمومی"
     }
   },
   ko: {
@@ -161,7 +222,22 @@ export const resources = {
       "Immigration":"이민 권리",
       "Immigration Desc":"이민은 미국 전역의 아시아계 미국인 및 태평양 섬 주민들에게 계속해서 중요한 현재의 삶에 영향을 미치는 문제입니다.",
       "Stand Up": "증오에 맞설 수 있도록 도와주세요",
-      "Successes":"성공"
+      "Successes":"성공",
+
+      "leadership":"지도",
+      "direct support":"직접 지원",
+      "advocacy":"옹호",
+      "bystander trainings":"방관자 교육",
+      "We equip community members with strategies to combat anti-Asian hate and harassment.": "우리는 반 아시아 적 증오와 괴롭힘에 맞서 싸우기위한 전략을 지역 사회 구성원에게 제공합니다.",
+      "civic engagement": "시민 참여",
+      "immigration rights": "이민 권리",
+
+      "LEADERSHIP":"지도",
+      "DIRECT SUPPORT":"직접 지원",
+      "ADVOCACY":"옹호",
+      "CIVIC ENGAGEMENT": "시민 참여",
+      "BYSTANDER INTERVENTION TRAININGS":"방관자 개입 교육",
+      "Lorem": "당근은 학부생 개발자를 향상 시켰지만 노동력과 비만 등의 시간과 활력을 간헐적으로합니다. 수년이 지나면 운동을하지 않는 분들은 교육구가 일합니다. 큐피 다탓 소비자라면 숙제를해서 즐거움을 찾으십시오. 그는 고통을 피하고 결과물을 생산하지 않는 축구 협회가되기를 원합니다. 단, 큐피 다 타트 흑인은 예외가 아니며, 영혼을 달래줍니다. 즉, 그들은 당신의 문제를 탓할 사람들의 일반적인 의무를 버렸습니다."
     }
   },
 };

@@ -1,71 +1,147 @@
-import './OrgInfo.css'
+import './OrgInfo.css';
+import leadershipIcon from '../../assets/images/leadership-icon.png';
+import supportIcon from '../../assets/images/support-icon.png';
+import advocacyIcon from '../../assets/images/advocacy-icon.png';
+import trainingIcon from '../../assets/images/training-icon.png';
+import engagementIcon from '../../assets/images/engagement-icon.png';
+import rightsIcon from '../../assets/images/rights-icon.png';
+import { useTranslation } from 'react-i18next';
+import { useBreakpoint } from '../../utils/BreakpointProvider';
+import { useState, useEffect } from 'react'
 
-const OrgInfo = () => {
 
-  return (
-    <section className="org-info-container row">
+
+const OrgInfo = ({currentLanguage, onChangeLang}) => {
+  const [ isMobile, setIsMobile ] = useState(true)
+  const breakpoints = useBreakpoint()
+  const { t } = useTranslation()
+
+  useEffect( () => {
+    setIsMobile( breakpoints.md )
+  }, [breakpoints.md])
+
+  const languages = {
+    en: "🇺🇸 English",
+    hi: "🇮🇳 हिंदी (Hindi)",
+    vi: "🇻🇳 Tiếng Việt (Vietnamese)",
+    ko: "🇰🇷 한국어 (Korean)",
+    ur: "🇵🇰 اردو (Urdu)",
+  }
+
+  const languageOptions = Object.keys(languages).map( lang => {
+    return(
+      <option key={lang} value={lang}>
+        {languages[lang]}
+      </option>
+    )
+  })
+  
+  return isMobile ? 
+    (
+      <section className="org-info-container row">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              LEADERSHIP 
+            {t('LEADERSHIP')} 
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {t('Lorem')}
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            DIRECT SUPPORT
+            {t('DIRECT SUPPORT')}
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {t('Lorem')}
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            ADVOCACY
+            {t('ADVOCACY')}
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {t('Lorem')}
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            CIVIC ENGAGEMENT
+            {t('CIVIC ENGAGEMENT')}
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {t('Lorem')}
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-              BYSTANDER INTERVENTION TRAININGS
+            {t('BYSTANDER INTERVENTION TRAININGS')}
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {t('Lorem')}
             </div>
           </div>
         </div>
       </div>
+    </section>
+    )
+    :
+    (
+    <section className="org-info-container row">
+    <div class="container">
+    <div class="row align-items-center">
+      <div class="col iconPosition">
+      <img src={leadershipIcon} alt="Leadership logo" className="photo" />
+      <div class="title">{t('leadership')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+      <div class="col iconPosition">
+      <img src={supportIcon} alt="Support logo" className="photo"/>
+      <div class="title">{t('direct support')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+      <div class="col iconPosition">
+      <img src={advocacyIcon} alt="Advocacy logo" className="photo"/>
+      <div class="title">{t('advocacy')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col iconPosition">
+      <img src={trainingIcon} alt="Training logo" className="photo"/>
+      <div class="title">{t('bystander trainings')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+      <div class="col iconPosition">
+      <img src={engagementIcon} alt="Engagement logo" className="photo"/>
+      <div class="title">{t('civic engagement')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+      <div class="col iconPosition">
+      <img src={rightsIcon} alt="Rights logo" className="photo"/>
+      <div class="title">{t('immigration rights')}</div>
+      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      </div>
+    </div>
+  </div>
     </section>
   )
 }
