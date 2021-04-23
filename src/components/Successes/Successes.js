@@ -5,15 +5,13 @@ import {successes} from "../../carouselContent"
 
 const Successes = () => {
 
+
   const successContent = successes.map((success, index) => 
     <Carousel.Item key={index}>
-        <img
-        className="d-block w-100"
-        src={success.imageUrl}
-        alt={success.imageAlt}
-        />
+        <img className="d-block w-100 h-50" src={success.imageUrl} alt={success.imageAlt} />
         <Carousel.Caption key={index}>
-            <a href={success.url} target="_blank" rel="noreferrer"><h3>{success.title}</h3></a>
+            <blockquote>{success.quote}</blockquote>
+            <figcaption>-{success.author}</figcaption>
         </Carousel.Caption>
     </Carousel.Item>
     )
