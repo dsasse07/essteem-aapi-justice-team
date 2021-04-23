@@ -1,5 +1,8 @@
 import './ShareButton.css'
 import { useState } from 'react'
+import Modal from './Modal'
+import { socialsData } from '../../utils/socialsData'
+
 const ShareButton = () => {
   const [ urlCopied, setUrlCopied ] = useState(false)
 
@@ -17,66 +20,46 @@ const ShareButton = () => {
     }
   }
 
-  return (
-    <nav className="menu">
-      <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open" />
-      <label className="menu-open-button" htmlFor="menu-open">
-        <i className="bi bi-share-fill share-icon"></i>
-      </label>
-
+  const socialLinkComponents = socialsData.map( social => {
+    return (
       <a 
-        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faapi-justice-team.netlify.app%2F&quote=AAJC" 
-        title="Share on Facebook"
+        key={social.outlet}
+        href={social.url}
+        title={social.title}
         target="_blank" 
         rel="noreferrer"
-        className="menu-item facebook_share_btn"
+        className={"col-4 d-flex flex-column align-items-center p-3 mx-3 " + social.outlet}
       > 
-        <i className="bi bi-facebook"></i> 
+        <div className={`menu-item ${social.outlet}_share_btn`}>
+          <i className={social.icon}></i> 
+        </div>
+        <span>{social.title}</span>
       </a>
+    )
+  })
 
-      <a 
-        href="https://twitter.com/intent/tweet?source=https%3A%2F%2Faapi-justice-team.netlify.app%2F&text=AAJC:%20https%3A%2F%2Faapi-justice-team.netlify.app%2F"
-        title="Tweet"
-        target="_blank"
-        rel="noreferrer"
-        className="menu-item twitter_share_btn"
-      > 
-        <i className="bi bi-twitter"></i> 
-      </a>
-      <a 
-        href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Faapi-justice-team.netlify.app%2F&title=AAJC&summary=Asian%20Americans%20Advancing%20Justice&source=https%3A%2F%2Faapi-justice-team.netlify.app%2F"
-        title="Share on LinkedIn"
-        target="_blank"
-        rel="noreferrer"
-        className="menu-item tumblr_share_btn"
-      > 
-        <i className="bi bi-linkedin"></i> 
-      </a>
-      <a 
-        href="mailto:?subject=AAJC&body=Asian%20Americans%20Advancing%20Justice:%20https%3A%2F%2Faapi-justice-team.netlify.app%2F"
-        title="Send Email"
-        target="_blank"
-        rel="noreferrer"
-        className="menu-item google_plus_share_btn"
-      > 
-        <i className="bi bi-envelope"></i> 
-      </a>
-      <a 
-        href="sms://?body=Asian%20Americans%20Advancing%20Justice:%20https%3A%2F%2Faapi-justice-team.netlify.app%2F"
-        title="Send SMS"
-        target="_blank"
-        rel="noreferrer"
-        className="menu-item pinterest_share_btn"
-      > 
-        <i className="bi bi-chat-dots"></i> 
-      </a>
-      <button
-        onClick={handleCopyLink}
-        name="Copy Link"
-        className="menu-item youtube_share_btn"
-      > 
-        <i className={ urlCopied ? "bi bi-clipboard-check" : "bi bi-clipboard"}></i> 
+  return (
+    <nav className="menu">
+      <button className="menu-open-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i className="bi bi-share-fill share-icon"></i>
       </button>
+
+      <Modal>
+        <div className="row g-3 d-flex justify-content-center">
+          {socialLinkComponents.slice(0,3)}
+          {socialLinkComponents.slice(3)}
+          <button
+            onClick={handleCopyLink}
+            name="Copy Link"
+            className="col-4 d-flex flex-column align-items-center copy_text p-3 mx-3"
+            > 
+            <div className="menu-item copy_text_share_btn">
+              <i className={ urlCopied ? "bi bi-clipboard-check" : "bi bi-clipboard"}></i> 
+            </div>
+            Copy Link
+          </button>
+        </div>
+      </Modal>
     </nav>
   )
 }
