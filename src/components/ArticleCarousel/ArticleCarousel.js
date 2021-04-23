@@ -7,19 +7,17 @@ const ArticleCarousel = () => {
 
     const articleContent = articles.map((article, index) => 
         <Carousel.Item key={index}>
-            <img
-            className="d-block w-100"
-            src={article.imageUrl}
-            alt={article.imageAlt}
-            />
-            <Carousel.Caption key={index}>
+            <a href={article.url} target="_blank" rel="noreferrer">
+              <img className="d-block w-100" src={article.imageUrl} alt={article.imageAlt} />
+            </a>
+            {/* <Carousel.Caption key={index}>
                 <a href={article.url} target="_blank" rel="noreferrer"><h3>{article.title}</h3></a>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
         </Carousel.Item>
         )
 
   return (
-    <div className="article-container row">
+    <div className="article-container row nopadding">
       <Carousel>
           {articleContent}
       </Carousel>

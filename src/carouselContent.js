@@ -20,13 +20,13 @@ export const articles = [
     title: "How to help stop hate crimes against Asian Americans",
     url: "https://www.advancingjustice-aajc.org/censusand",
     imageUrl: "../images/aj-slide-2.png",
-    imageAlt: "Stop Asian Hate"
+    imageAlt: "Article Slide 2"
     },
     {
     title: "The History of Anti-Asian Sentiment in the U.S.",
     url: "https://www.advancingjustice-aajc.org/index.php/share",
     imageUrl: "../images/aj-slide-3.png",
-    imageAlt: "Anti-Chinese labor meeting on March 20, 1880 outside of San Francisco City Hall"
+    imageAlt: "Article Slide 3"
     },
 ]
 

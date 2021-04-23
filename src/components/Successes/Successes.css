@@ -3,18 +3,13 @@
   height: 50vh;
 }
 
-.success-card {
-  background-color: gray;
-  width: 100%;
-  height: inherit;
-}
 
 
 
 blockquote {
-  font-size: 3em;
+  font-size: 5vw;
   background-color: rgba(102,102,102, 0.5)
 }
 figcaption {
-  font-size: 2em;
+  font-size: 3vw;
 }
