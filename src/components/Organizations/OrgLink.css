@@ -1,0 +1,73 @@
+.orglink {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  border: 1px solid var(--gray);
+  width: 100%;
+  max-width: 400px;
+}
+
+.orglink-section{
+  display: flex;
+  width: 400px;
+  overflow: hidden;
+}
+
+
+.orglink-section:last-of-type{
+  padding: 6px 5%;
+}
+
+.orglink-section .city-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.orglink:hover{
+  color: var(--white);
+}
+
+.row .orglink:last-of-type{
+  margin-bottom: 20px;
+}
+
+.orglink-section .image-container {
+  width: 38px;
+}
+
+.orglink-section .image-container > img {
+  width: 100%;
+  object-fit: contain; 
+}
+
+.orglink-text p{
+  margin: 0 25px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.aajc {
+  background: var(--aajc);
+}
+.alc {
+  background: var(--alc);
+}
+.ajc {
+  background: var(--ajc);
+}
+.ajla {
+  background: var(--ajla);
+}
+.aja {
+  background: var(--aja);
+}
+
+@media (min-width: 1024px){
+  .orglink{
+    max-width: 800px;
+  }
+}

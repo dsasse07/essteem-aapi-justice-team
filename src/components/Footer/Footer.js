@@ -1,8 +1,60 @@
 import './Footer.css'
-function Footer() {
+import footerLogo from '../../assets/images/footer-logo.png'
+import SocialLink from './SocialLink'
+import { useTranslation } from 'react-i18next'
+import ShareButton from './ShareButton'
+
+const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <footer className="footer-container row">
-      Footer
+
+      <div className="footer-logo-container">
+        <img src={footerLogo} alt="AAJC logo" />
+      </div>
+
+      <a 
+        href="https://secure.donationpay.org/aajc/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {t('Donate Today')}
+      </a>
+
+      <nav className="social-container">
+        <SocialLink 
+          title="Twitter"
+          url="https://twitter.com/AAAJ_AAJC"
+        />
+        <SocialLink 
+          title="Facebook"
+          url="https://www.facebook.com/advancingjusticeaajc"
+        />
+        <SocialLink 
+          title="Instagram"
+          url="https://www.instagram.com/advancingjustice_aajc/"
+        />
+        <div className="share-container">
+          <ShareButton/>
+        </div>
+      </nav>
+
+      <div className="disclaimer-container">
+        <p>
+          {t('AAAJ')}
+        </p>
+        <p>
+          {t('rights')}
+        </p>
+        <p>
+          {t('Creative Commons')}
+        </p>
+        <p>
+          {t('Learn More')}
+        </p>
+      </div>
+
     </footer>
   )
 }
