@@ -123,7 +123,7 @@ In viewing the current Advancing Justice site, we wanted to make clear our user 
       </a>
     </div>
     <div>
-      <a href="">
+      <a href="http://nataliekdesigns.com/">
         <img 
           src="./public/images/nat.png"
           class="profile-photo"
