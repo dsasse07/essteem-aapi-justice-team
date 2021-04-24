@@ -131,7 +131,7 @@ In viewing the current Advancing Justice site, we wanted to make clear our user 
         />
         <br />
         <sub>
-          <b>Natalie Kalaydjian</b> 
+          <b>Natalie Kalaydjian</b>
           </br>
           UX Designer
         </sub>
