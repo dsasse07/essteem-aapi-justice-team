@@ -4,6 +4,7 @@ export const resources = {
       //Header 
       "Select Language": "Select Language",
       "Donate": "DONATE",
+      
       // Infographics
       "understanding": "UNDERSTANDING THE PROBLEM",
       "percent58": "58% of Asian adults say it's now more common for people to express racially insensitive views than before Covid.",
