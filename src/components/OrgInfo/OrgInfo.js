@@ -14,7 +14,7 @@ import { useState, useEffect } from 'react'
 const OrgInfo = ({currentLanguage, onChangeLang}) => {
   const [ isMobile, setIsMobile ] = useState(true) 
   const breakpoints = useBreakpoint()
-  const { t } = useTranslation()
+  const { t } = useTranslation() 
 
   useEffect( () => {
     setIsMobile( breakpoints.md )
