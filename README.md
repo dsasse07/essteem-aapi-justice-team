@@ -138,7 +138,7 @@ In viewing the current Advancing Justice site, we wanted to make clear our user 
       </a>
     </div>
     <div>
-      <a href="">
+      <a href="https://www.claudettecarino.page/">
         <img 
           src="./public/images/claudette.png"
           class="profile-photo"

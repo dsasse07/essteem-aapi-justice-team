@@ -1,6 +1,6 @@
 import './Successes.css'
 import Carousel from 'react-bootstrap/Carousel'
-import {successes} from "../../carouselContent"
+import {successes} from "../../data/carouselContent"
 
 
 const Successes = () => {

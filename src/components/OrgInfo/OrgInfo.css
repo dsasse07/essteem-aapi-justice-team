@@ -1,4 +1,14 @@
 .org-info-container{
-  background: lavender;
-  height: 50vh;
+
+}
+
+.org-info-container > header{
+  background: var(--teal);
+  color: var(--white);
+}
+
+.org-info-container header > h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 14px;
 }

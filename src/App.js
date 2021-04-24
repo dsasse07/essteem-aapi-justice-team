@@ -32,9 +32,9 @@ const App = () => {
       <Header currentLanguage={currentLanguage} onChangeLang={handleLangChange}/>
       <main>
         <ArticleCarousel />
-        <Infographic />
+        {/* <Infographic /> */}
         <OrgInfo />
-        <Successes />
+        {/* <Successes /> */}
         <Organizations />
       </main>
       <Footer />

@@ -1,7 +1,7 @@
 import './ShareButton.css'
 import { useState } from 'react'
 import Modal from './Modal'
-import { socialsData } from '../../utils/socialsData'
+import { socialsData } from '../../data/socialsData'
 
 const ShareButton = () => {
   const [ urlCopied, setUrlCopied ] = useState(false)
