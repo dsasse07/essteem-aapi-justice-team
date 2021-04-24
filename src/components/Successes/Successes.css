@@ -1,11 +1,17 @@
 
 .successes-container {
   background: var(--black);
+  padding-bottom: 70px;
 }
 
 .successes-container > header{
   background: var(--teal);
   color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  margin-bottom: 80px;
 }
 
 .successes-container header > h2 {
@@ -22,7 +28,7 @@
   text-align: center;
   flex-wrap: wrap;
   background-color: rgba(114, 114, 114, 0.308);
-
+  max-width: 1100px;
 }
 
 .success-item img {
@@ -42,4 +48,10 @@
   color: var(--white);
   min-width: 350px;
   width: 50%;
+}
+
+.carousel-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

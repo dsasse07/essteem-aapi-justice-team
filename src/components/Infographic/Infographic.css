@@ -1,6 +1,11 @@
 .infographic-container > header{
   background: var(--teal);
   color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  margin-bottom: 80px;
 }
 
 .infographic-container header > h2 {

@@ -9,17 +9,17 @@ const Successes = () => {
 
   const successContent = successes.map((success, index) => 
     <Carousel.Item key={index}>
-      <fig className="success-item row p-5">
+      <figure className="success-item row p-5">
         <img className="" src={success.imageUrl} alt={success.imageAlt} />
         <div className="quote">
-          <blockquote className="fs-5">
+          <blockquote className="fs-3">
             {success.quote}
           </blockquote>
-          <figcaption className="fs-6">
+          <figcaption className="fs-4">
             -{success.author}
           </figcaption>
         </div>
-      </fig>
+      </figure>
     </Carousel.Item>
     )
 
@@ -30,9 +30,11 @@ const Successes = () => {
           {t('Successes')}
         </h2>
       </header>
-      <Carousel>
-          {successContent}
-      </Carousel>
+      <div className="carousel-container ">
+        <Carousel nextLabel='' prevLabel=''>
+            {successContent}
+        </Carousel>
+      </div>
     </section>
   )
 }

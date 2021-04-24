@@ -1,10 +1,16 @@
 .organizations-container{
   background: var(--white);
+  padding-bottom: 80px;
 }
 
 .organizations-container > header{
   background: var(--teal);
   color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  margin-bottom: 40px;
 }
 
 .organizations-container header > h2 {
@@ -18,7 +24,7 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
-  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 

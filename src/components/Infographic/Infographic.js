@@ -7,12 +7,12 @@ const Infographic = () => {
 
   const infographicComponents = infographics.map( graphic => {
     return (
-      <fig className="col-md-5 d-flex justify-content-center align-items-center flex-column mx-3 mb-5">
+      <figure key ={graphic.caption} className="col-md-5 d-flex justify-content-center align-items-center flex-column mx-3 mb-5">
         <img className="w-50 " src={graphic.image} alt={graphic.caption}/>
         <figcaption className="py-4 w-75 text-center fw-bold fs-4 lh-sm">
           {t(graphic.caption)}
         </figcaption>
-      </fig>
+      </figure>
     )
   })
 
@@ -25,7 +25,7 @@ const Infographic = () => {
           </h2>
         </header>
 
-        <div className="row mt-4 d-flex flex-wrap justify-content-evenly">
+        <div className="row d-flex flex-wrap justify-content-evenly">
           {infographicComponents.slice(0,2)}
         </div>
       </section>

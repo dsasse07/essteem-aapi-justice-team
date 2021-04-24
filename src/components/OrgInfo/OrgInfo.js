@@ -29,83 +29,83 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
         </header>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               {t('LEADERSHIP')} 
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('leadership text')}
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               {t('DIRECT SUPPORT')}
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('direct text')}
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               {t('ADVOCACY')}
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('advocacy text')}
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFour">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               {t('CIVIC ENGAGEMENT')}
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('civic engagement text')}
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFive">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
               {t('BYSTANDER INTERVENTION TRAININGS')}
               </button>
             </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('bystander trainings text')}
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSix">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
               {t('IMMIGRATION RIGHTS')}
               </button>
             </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+            <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
               {t('immigration rights text')}
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <button class="buttonStyle buttonTopSpace mobileButton">
-              <span class="buttonText mobileText ">
+          <div className="row">
+            <button className="buttonStyle buttonTopSpace mobileButton">
+              <span className="buttonText mobileText ">
                 {t('DONATE')}
               </span>
               <br /> 
@@ -124,44 +124,44 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
         </header>
 
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col iconPosition">
+        <div className="container info-row">
+          <div className="row align-items-center info-row">
+            <div className="col iconPosition">
               <img src={leadershipIcon} alt="Leadership logo" className="photo" />
-              <div class="title">{t('LEADERSHIP')}</div>
-              <div class="text">{t('leadership text')}</div>
+              <div className="title">{t('LEADERSHIP')}</div>
+              <div className="text">{t('leadership text')}</div>
             </div>
-            <div class="col iconPosition">
+            <div className="col iconPosition">
               <img src={supportIcon} alt="Support logo" className="photo"/>
-              <div class="title">{t('DIRECT SUPPORT')}</div>
-              <div class="text">{t('direct text')}</div>
+              <div className="title">{t('DIRECT SUPPORT')}</div>
+              <div className="text">{t('direct text')}</div>
             </div>
-            <div class="col iconPosition">
+            <div className="col iconPosition">
               <img src={advocacyIcon} alt="Advocacy logo" className="photo"/>
-              <div class="title">{t('ADVOCACY')}</div>
-              <div class="text">{t('advocacy text')}</div>
+              <div className="title">{t('ADVOCACY')}</div>
+              <div className="text">{t('advocacy text')}</div>
             </div>
           </div>
 
-          <div class="row align-items-center">
-            <div class="col iconPosition">
+          <div className="row align-items-center info-row">
+            <div className="col iconPosition">
               <img src={trainingIcon} alt="Training logo" className="photo"/>
-              <div class="title">{t('BYSTANDER INTERVENTION TRAININGS')}</div>
-              <div class="text">{t('bystander trainings text')}</div>
+              <div className="title">{t('BYSTANDER INTERVENTION TRAININGS')}</div>
+              <div className="text">{t('bystander trainings text')}</div>
             </div>
-            <div class="col iconPosition">
+            <div className="col iconPosition">
               <img src={engagementIcon} alt="Engagement logo" className="photo"/>
-              <div class="title">{t('CIVIC ENGAGEMENT')}</div>
-              <div class="text">{t('civic engagement text')}</div>
+              <div className="title">{t('CIVIC ENGAGEMENT')}</div>
+              <div className="text">{t('civic engagement text')}</div>
             </div>
-            <div class="col iconPosition">
+            <div className="col iconPosition">
               <img src={rightsIcon} alt="Rights logo" className="photo"/>
-              <div class="title">{t('IMMIGRATION')}</div>
-              <div class="text">{t('immigration rights text')}</div>
+              <div className="title">{t('IMMIGRATION')}</div>
+              <div className="text">{t('immigration rights text')}</div>
             </div>
 
-            <div class="row">
-              <button class="buttonStyle"><a href="https://secure.donationpay.org/aajc/"> <span class="buttonText">{t('DONATE')}</span><br /> {t('Help stand')}</a></button>
+            <div className="row">
+              <button className="buttonStyle"><a href="https://secure.donationpay.org/aajc/"> <span className="buttonText">{t('DONATE')}</span><br /> {t('Help stand')}</a></button>
             </div>
 
           </div>
