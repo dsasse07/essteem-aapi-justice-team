@@ -38,6 +38,7 @@ const Footer = () => {
         <div className="share-container">
           <ShareButton/>
         </div>
+
       </nav>
 
       <div className="disclaimer-container">

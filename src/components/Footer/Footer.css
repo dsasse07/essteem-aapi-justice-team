@@ -30,6 +30,12 @@
   margin: 40px;
 }
 
+.footer-container > a:hover,
+.footer-container > a:focus {
+  color: var(--orange);
+  background: white;
+}
+
 .social-container{
   display: flex;
   justify-content: space-evenly;
@@ -53,6 +59,7 @@
   font-size: 0.8rem;
   margin: 0;
 }
+
 .disclaimer-container p:first-of-type{
   font-size: 1.2rem;
 }

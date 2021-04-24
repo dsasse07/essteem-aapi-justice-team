@@ -33,6 +33,12 @@ header a {
   text-decoration: none;
 }
 
+header a:hover,
+header a:focus {
+  /* box-shadow: inset 0 0 26px var(--white); */
+  box-shadow: 0 0 10px var(--gray);
+}
+
 .hidden {
   display: none;
 }

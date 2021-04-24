@@ -8,13 +8,13 @@ const Organizations = () => {
   return (
     <section className="organizations-container row">
       <header>
-        <h1>
+        <h2>
           {t('Our Organizations')}
-        </h1>
+        </h2>
       </header>
-      <h2>
+      <h3>
         {t('Click Below')}
-      </h2>
+      </h3>
       <div className="orglinks">
         <OrgLink org="AAJC" orgCode="aajc" link="http://www.advancingjustice-aajc.org/" />
         <OrgLink org={t('Asian Law Caucus')} orgCode="alc" link="http://www.advancingjustice-aajc.org/" />
