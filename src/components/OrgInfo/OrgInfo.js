@@ -48,7 +48,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            {t('Lorem')}
+            {t('leadership text')}
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            {t('Lorem')}
+            {t('direct text')}
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            {t('Lorem')}
+            {t('advocacy text')}
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            {t('Lorem')}
+            {t('civic engagement text')}
             </div>
           </div>
         </div>
@@ -96,10 +96,25 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            {t('Lorem')}
+            {t('bystander trainings text')}
             </div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+            {t('IMMIGRATION RIGHTS')}
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            {t('immigration rights text')}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+      <button class="buttonStyle buttonTopSpace mobileButton"><span class="buttonText mobileText ">{t('DONATE')}</span><br /> {t('Help stand')}</button>
+      </div>
       </div>
     </section>
     )
@@ -111,34 +126,37 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
       <div class="col iconPosition">
       <img src={leadershipIcon} alt="Leadership logo" className="photo" />
       <div class="title">{t('leadership')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('leadership text')}</div>
       </div>
       <div class="col iconPosition">
       <img src={supportIcon} alt="Support logo" className="photo"/>
       <div class="title">{t('direct support')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('direct text')}</div>
       </div>
       <div class="col iconPosition">
       <img src={advocacyIcon} alt="Advocacy logo" className="photo"/>
       <div class="title">{t('advocacy')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('advocacy text')}</div>
       </div>
     </div>
     <div class="row align-items-center">
       <div class="col iconPosition">
       <img src={trainingIcon} alt="Training logo" className="photo"/>
       <div class="title">{t('bystander trainings')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('bystander trainings text')}</div>
       </div>
       <div class="col iconPosition">
       <img src={engagementIcon} alt="Engagement logo" className="photo"/>
       <div class="title">{t('civic engagement')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('civic engagement text')}</div>
       </div>
       <div class="col iconPosition">
       <img src={rightsIcon} alt="Rights logo" className="photo"/>
       <div class="title">{t('immigration rights')}</div>
-      <div class="text">{t('We equip community members with strategies to combat anti-Asian hate and harassment.')}</div>
+      <div class="text">{t('immigration rights text')}</div>
+      </div>
+      <div class="row">
+      <button class="buttonStyle"><a href="https://secure.donationpay.org/aajc/"> <span class="buttonText">{t('DONATE')}</span><br /> {t('Help stand')}</a></button>
       </div>
     </div>
   </div>

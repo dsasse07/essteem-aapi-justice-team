@@ -35,7 +35,6 @@ export const resources = {
       "direct support":"direct support",
       "advocacy":"advocacy",
       "bystander trainings":"bystander trainings",
-      "We equip community members with strategies to combat anti-Asian hate and harassment.": "We equip community members with strategies to combat anti-Asian hate and harassment.",
       "civic engagement": "civic engagement",
       "immigration rights": "immigration rights",
 
@@ -44,7 +43,16 @@ export const resources = {
       "ADVOCACY":"ADVOCACY",
       "CIVIC ENGAGEMENT": "CIVIC ENGAGEMENT",
       "BYSTANDER INTERVENTION TRAININGS":"BYSTANDER INTERVENTION TRAININGS",
-      "Lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "IMMIGRATION":"IMMIGRATION",
+      "leadership text":"We connect communities through our leadership in coalitions at the city, state, and national levels.",
+      "direct text":"We strengthen roots by increasing visibility of our community and advocating family immigration.",
+      "advocacy text":"We work to defend, protect, and advance the rights fo the AAPI and other communities at all levels of government.",
+      "bystander trainings text":"We equip community members with strategies to combat anti-Asian hate and harassment.",
+      "civic engagement text":"We grow power and mobilize for racial equity year round through our civic engagement efforts.",
+      "immigration rights text":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
+
+       "DONATE":"DONATE TODAY",
+      "Help stand":"Help stand up against hate"
     }
   },
   hi: {
@@ -92,8 +100,17 @@ export const resources = {
       "ADVOCACY":"वकालत",
       "CIVIC ENGAGEMENT": "नागरिक अनुबंध",
       "BYSTANDER INTERVENTION TRAININGS":"बिस्टैंडर इंटरवेंशन ट्रेनिंग",
-      "Lorem": "लोरम इप्सम गाजर, अंडरग्रेजुएट डेवलपर को बढ़ाया, लेकिन वे श्रम और मोटापा जैसे समय और जीवन शक्ति का काम करते हैं। कई साल बाद, जो नथु्रड व्यायाम करते हैं, स्कूल जिले में काम करते हैं, जब तक कि वे इससे लाभ नहीं उठाते हैं। अगर खुशी मिल जाए तो कपिदात उपभोक्ता को होमवर्क करें। एक फुटबॉल के रूप में जाना चाहता है, वह दर्द को दूर करता है, कोई परिणाम नहीं पैदा करता है। अलौकिक कपिडैट ब्लैक असाधारण नहीं हैं, आत्मा के लिए सुखदायक है, अर्थात्, वे उन लोगों के सामान्य कर्तव्यों को छोड़ देते हैं जो आपकी परेशानियों के लिए दोषी हैं। "
+      "IMMIGRATION":"इमेजिंग",
+      "IMMIGRATION RIGHTS":"इमेजिंग अधिकार",
+      "leadership text":"हम शहर, राज्य और राष्ट्रीय स्तर पर गठबंधन में अपने नेतृत्व के माध्यम से समुदायों को जोड़ते हैं।",
+      "direct text":"हम अपने समुदाय की दृश्यता और परिवार के आव्रजन की वकालत करके जड़ों को मजबूत करते हैं।",
+      "advocacy text":"हम सरकार के सभी स्तरों पर AAPI और अन्य समुदायों के अधिकारों की रक्षा, सुरक्षा और उन्नति के लिए काम करते हैं।",
+      "bystander trainings text":"हम एशियाई विरोधी घृणा और उत्पीड़न का मुकाबला करने के लिए समुदाय के सदस्यों को रणनीतियों से लैस करते हैं।",
+      "civic engagement text":"हम अपने नागरिक जुड़ाव प्रयासों के माध्यम से नस्लीय इक्विटी वर्ष दौर के लिए शक्ति बढ़ाते हैं और जुटाते हैं।",
+      "immigration rights text":"देश भर में AAPI के लिए आव्रजन एक महत्वपूर्ण, वर्तमान, जीवन को प्रभावित करने वाला मुद्दा है।",
 
+      "DONATE":"डोनेट टुडे!",
+      "Help stand":"नफरत के खिलाफ खड़े होने में मदद करें"
     }
   },
   vi: {
@@ -130,18 +147,27 @@ export const resources = {
 
       "leadership":"khả năng lãnh đạo",
       "direct support":"hỗ trợ trực tiếp",
-      "advocacy":"vận động",
+      "advocacy":"biện hộ",
       "bystander trainings":"đào tạo người ngoài cuộc",
-      "We equip community members with strategies to combat anti-Asian hate and harassment.": "Chúng tôi trang bị cho các thành viên cộng đồng các chiến lược để chống lại sự thù ghét và quấy rối chống người châu Á.",
       "civic engagement": "sự tham gia của công dân",
       "immigration rights": "quyền nhập cư",
 
-      "LEADERSHIP":"Khả năng lãnh đạo",
-      "DIRECT SUPPORT":"Hỗ trợ trực tiếp",
-      "ADVOCACY":"ADVOCACY",
-      "CIVIC ENGAGEMENT": "Tương tác với công dân",
-      "BYSTANDER INTERVENTION TRAININGS":"Đào tạo CAN THIỆP cho người ngoài cuộc",
-      "Lorem": "Cà rốt Lorem ipsum, nhà phát triển bậc đại học được nâng cao, nhưng chúng làm mất thời gian và sức sống, chẳng hạn như lao động và béo phì. Trong những năm tới, những người không tập thể dục, khu học chánh sẽ làm việc trừ khi họ nhận được lợi thế từ nó. Bài tập về nhà nếu người tiêu dùng cupidatat để tìm thấy niềm vui Anh ta muốn trở thành một cầu thủ bóng đá, anh ta tránh xa nỗi đau, không tạo ra kết quả. Người da đen ngoại lệ không phải là người ngoại lệ, là người xoa dịu tâm hồn, nghĩa là họ từ bỏ nhiệm vụ chung của những người phải đổ lỗi cho những rắc rối của bạn. "
+      "LEADERSHIP":"KHẢ NĂNG LÃNH ĐẠO",
+      "DIRECT SUPPORT":"HỖ TRỢ TRỰC TIẾP",
+      "ADVOCACY":"BIẾN HỐ",
+      "CIVIC ENGAGEMENT": "GIAO TIẾP CIVIC",
+      "BYSTANDER INTERVENTION TRAININGS":"ĐÀO TẠO CAN THIỆP BẰNG NHAU",
+      "IMMIGRATION":"DI TRUYỀN", 
+      "IMMIGRATION RIGHTS":"QUYỀN DI TRÚ",
+      "leadership text":"Chúng tôi kết nối các cộng đồng thông qua vai trò lãnh đạo của chúng tôi trong các liên minh ở cấp thành phố, tiểu bang và quốc gia.",
+      "direct text":"Chúng tôi củng cố nguồn gốc bằng cách tăng khả năng hiển thị của cộng đồng của chúng tôi và ủng hộ việc nhập cư theo gia đình.",
+      "advocacy text":"Chúng tôi làm việc để bảo vệ, bảo vệ và thúc đẩy các quyền của AAPI và các cộng đồng khác ở tất cả các cấp chính quyền.",
+      "bystander trainings text":"Chúng tôi trang bị cho các thành viên cộng đồng các chiến lược để chống lại sự thù ghét và quấy rối chống người châu Á.",
+      "civic engagement text":"Chúng tôi phát triển quyền lực và huy động cho sự bình đẳng chủng tộc quanh năm thông qua các nỗ lực gắn kết công dân của chúng tôi.",
+      "immigration rights text":"Nhập cư tiếp tục là một vấn đề quan trọng, hiện tại, ảnh hưởng đến cuộc sống của các AAPI trên khắp đất nước.",
+
+      "DONATE":"TẶNG NGAY HÔM NAY",
+      "Help stand":"Giúp đứng lên chống lại sự thù ghét"
     }
   },
   ur: {
@@ -180,16 +206,25 @@ export const resources = {
       "direct support":"براہ راست مدد",
       "advocacy":"وکالت",
       "bystander trainings":"بذریعہ ٹریننگ",
-      "We equip community members with strategies to combat anti-Asian hate and harassment.": "ہم کمیونٹی کے ممبروں کو ایشین مخالف نفرت اور ہراساں کرنے کے خلاف حکمت عملی سے لیس کرتے ہیں۔",
-      "civic engagement": "المشاركة المدنيةشہری مشغولیت",
-      "immigration rights": "امیگریشن حقوق",
+      "civic engagement": "شہری مشغولیت",
+      "immigration rights": "امیگریشن رائٹس",
 
-      "LEADERSHIP":"قیادت",
-      "DIRECT SUPPORT":"براہ راست تعاون",
+      "LEADERSHIP":"لیڈرشپ",
+      "DIRECT SUPPORT":"ڈائریکٹ سپورٹ",
       "ADVOCACY":"ایڈووکیسی",
       "CIVIC ENGAGEMENT": "شہری مشغولیت",
-      "BYSTANDER INTERVENTION TRAININGS":"بزنس انٹرینڈینٹ ٹریننگ",
-      "Lorem": "وقتا فوقتا وقت اور جیالتا ، جیسے مشقت اور موٹاپا کرتے ہیں۔ برسوں کے دوران ، جو ورزش کرتے ہیں ، اسکول کے ضلعی کام کرتے ہیں جب تک کہ وہ اس سے فائدہ اٹھا نہ لیں۔ ہوم ورک اگر کامیڈیٹ صارفین کو خوشی مل جائے تو وہ فٹ بال سیلم بننا چاہتا ہے جس کی وجہ سے وہ درد کو دور کرتا ہے ، اس کا کوئی نتیجہ نہیں نکلتا۔ ماقبل کیپیڈیٹیٹ کالے مستثنیٰ نہیں ہیں ، روح کو راحت بخش ہیں ، یعنی انہوں نے ان لوگوں کے عمومی"
+      "BYSTANDER INTERVENTION TRAININGS":"بیس اسٹینڈر انٹر وینٹینشن ٹریننگ",
+      "IMMIGRATION": "امیگریشن", 
+      "IMMIGRATION RIGHTS":"امیگریشن حق",
+      "leadership text":"ہم شہر ، ریاست اور قومی سطح پر اتحادوں میں اپنی قیادت کے ذریعہ جماعتوں کو جوڑتے ہیں۔",
+      "direct text":"ہم شہر ، ریاست اور قومی سطح پر اتحادوں میں اپنی قیادت کے ذریعہ جماعتوں کو جوڑتے ہیں۔",
+      "advocacy text":"ہم شہر ، ریاست اور قومی سطح پر اتحادوں میں اپنی قیادت کے ذریعہ جماعتوں کو جوڑتے ہیں۔",
+      "bystander trainings text":"ہم شہر ، ریاست اور قومی سطح پر اتحادوں میں اپنی قیادت کے ذریعہ جماعتوں کو جوڑتے ہیں۔",
+      "civic engagement text":"ہم شہر ، ریاست اور قومی سطح پر اتحادوں میں اپنی قیادت کے ذریعہ جماعتوں کو جوڑتے ہیں۔",
+      "immigration rights text":"امیگریشن ملک بھر میں AAPIs کے لئے ایک اہم ، حالیہ ، زندگی کو متاثر کرنے والا ایک اہم مسئلہ ہے۔",
+
+      "DONATE":"آج ہی دن دیں",
+      "Help stand":"نفرت کے خلاف کھڑے ہونے میں مدد کریں"
     }
   },
   ko: {
@@ -228,16 +263,25 @@ export const resources = {
       "direct support":"직접 지원",
       "advocacy":"옹호",
       "bystander trainings":"방관자 교육",
-      "We equip community members with strategies to combat anti-Asian hate and harassment.": "우리는 반 아시아 적 증오와 괴롭힘에 맞서 싸우기위한 전략을 지역 사회 구성원에게 제공합니다.",
       "civic engagement": "시민 참여",
-      "immigration rights": "이민 권리",
+      "immigration rights": "이민 권",
 
       "LEADERSHIP":"지도",
       "DIRECT SUPPORT":"직접 지원",
       "ADVOCACY":"옹호",
-      "CIVIC ENGAGEMENT": "시민 참여",
-      "BYSTANDER INTERVENTION TRAININGS":"방관자 개입 교육",
-      "Lorem": "당근은 학부생 개발자를 향상 시켰지만 노동력과 비만 등의 시간과 활력을 간헐적으로합니다. 수년이 지나면 운동을하지 않는 분들은 교육구가 일합니다. 큐피 다탓 소비자라면 숙제를해서 즐거움을 찾으십시오. 그는 고통을 피하고 결과물을 생산하지 않는 축구 협회가되기를 원합니다. 단, 큐피 다 타트 흑인은 예외가 아니며, 영혼을 달래줍니다. 즉, 그들은 당신의 문제를 탓할 사람들의 일반적인 의무를 버렸습니다."
+      "CIVIC ENGAGEMENT": "민간 참여",
+      "BYSTANDER INTERVENTION TRAININGS":"바이 스탠 더 개입 교육",
+      "IMMIGRATION": "이주",
+      "IMMIGRATION RIGHTS":"이민 권",
+      "leadership text":"우리는 도시, 주 및 국가 차원에서 연합의 리더십을 통해 지역 사회를 연결합니다.",
+      "direct text":"우리는 커뮤니티의 가시성을 높이고 가족 이민을 옹호함으로써 뿌리를 강화합니다.",
+      "advocacy text":"우리는 모든 수준의 정부에서 AAPI 및 기타 커뮤니티의 권리를 방어, 보호 및 발전시키기 위해 노력합니다.",
+      "bystander trainings text":"우리는 반 아시아 적 증오와 괴롭힘에 맞서 싸우기위한 전략을 지역 사회 구성원에게 제공합니다.",
+      "civic engagement text":"우리는 시민 참여 노력을 통해 연중 힘을 키우고 인종 평등을 위해 동원합니다.",
+      "immigration rights text":"이민은 미국 전역의 AAPI에게 중요한 현재의 삶에 영향을 미치는 문제입니다.",
+
+      "DONATE":"오늘 기부",
+      "Help stand":"증오에 맞설 수 있도록 도와주세요"
     }
   },
 };

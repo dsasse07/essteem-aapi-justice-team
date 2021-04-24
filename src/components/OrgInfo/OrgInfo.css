@@ -92,6 +92,8 @@ letter-spacing: 0px;
 color: #0095A8;
 opacity: 1;
 text-transform: uppercase;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 
 .text{
@@ -105,4 +107,45 @@ text-transform: uppercase;
 
 .iconPosition{
   margin: 46px 0 46px 0;
+}
+
+.buttonStyle{
+  width: 409px;
+  height: 93px;
+  background: #DA6810 0% 0% no-repeat padding-box;
+  border-radius: 47px;
+  opacity: 1;
+  margin: 0 auto;
+  color: #FFFFFF;
+  border: orange;
+}
+.buttonText{
+text-align: center;
+font: normal normal bold 34px/32px Assistant;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.buttonStyle  a:link {
+ text-decoration: none;
+}
+
+.buttonStyle a {
+    color: white;
+}
+
+.buttonTopSpace { 
+  margin-top: 25px;
+}
+
+.mobileButton{
+    width: 281px;
+    height: 70px;
+}
+
+.mobileText {
+    text-align: center;
+    font: normal normal bold 25px/12px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
