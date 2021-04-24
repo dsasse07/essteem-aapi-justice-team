@@ -1,4 +1,9 @@
-.infographic-container > header{
+.infographic-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infographic-container > header {
   background: var(--teal);
   color: var(--white);
   display: flex;
@@ -6,6 +11,10 @@
   justify-content: center;
   height: 90px;
   margin-bottom: 80px;
+}
+
+.infographic-container > header.second{
+  width: 270px;
 }
 
 .infographic-container header > h2 {
@@ -18,4 +27,8 @@
 a {
   color: #FFFFFF;
   font-size: larger;
+}
+
+.graphic-row {
+  max-width: 1100px;
 }

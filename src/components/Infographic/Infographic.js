@@ -25,19 +25,19 @@ const Infographic = () => {
           </h2>
         </header>
 
-        <div className="row d-flex flex-wrap justify-content-evenly">
+        <div className="row d-flex flex-wrap justify-content-evenly graphic-row">
           {infographicComponents.slice(0,2)}
         </div>
       </section>
 
       <section className="infographic-container row d-flex justify-content-center">
-        <header>
+        <header className="second">
           <h2>
             {t('OUR IMPACT')}
           </h2>
         </header>
-
-        <div className="row mt-4 d-flex flex-wrap justify-content-evenly">
+        <br></br>
+        <div className="row mt-4 d-flex flex-wrap justify-content-evenly graphic-row">
           {infographicComponents.slice(2,4)}
         </div>
         
