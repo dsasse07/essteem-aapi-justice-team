@@ -3,6 +3,22 @@
   margin-bottom: 25px;
 }
 
+.org-info-container > header{
+  background: var(--teal);
+  color: var(--white);
+}
+
+.org-info-container header > h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 14px;
+}
+
+.org-info-container button:hover,
+.org-info-container button:focus {
+  box-shadow: 0 0 10px var(--gray);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

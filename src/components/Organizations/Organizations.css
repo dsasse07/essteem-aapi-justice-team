@@ -7,13 +7,13 @@
   color: var(--white);
 }
 
-.organizations-container header > h1 {
+.organizations-container header > h2 {
   font-size: 1.5rem;
   font-weight: 800;
   padding: 14px;
 }
 
-.organizations-container h2 {
+.organizations-container h3 {
   color: var(--teal); 
   text-align: center;
   font-size: 1.5rem;

@@ -1,23 +1,35 @@
 import './Successes.css'
 import Carousel from 'react-bootstrap/Carousel'
 import {successes} from "../../data/carouselContent"
-
+import { useTranslation } from 'react-i18next'
 
 const Successes = () => {
 
+  const { t }  = useTranslation()
 
   const successContent = successes.map((success, index) => 
     <Carousel.Item key={index}>
-        <img className="d-block w-100 h-50" src={success.imageUrl} alt={success.imageAlt} />
-        <Carousel.Caption key={index}>
-            <blockquote>{success.quote}</blockquote>
-            <figcaption>-{success.author}</figcaption>
-        </Carousel.Caption>
+      <fig className="success-item row p-5">
+        <img className="" src={success.imageUrl} alt={success.imageAlt} />
+        <div className="quote">
+          <blockquote className="fs-5">
+            {success.quote}
+          </blockquote>
+          <figcaption className="fs-6">
+            -{success.author}
+          </figcaption>
+        </div>
+      </fig>
     </Carousel.Item>
     )
 
   return (
     <section className="successes-container row">
+      <header>
+        <h2>
+          {t('Successes')}
+        </h2>
+      </header>
       <Carousel>
           {successContent}
       </Carousel>

@@ -1,9 +1,16 @@
-.infographic-container {
-  height: 100vh;
-  background: white;
+.infographic-container > header{
+  background: var(--teal);
+  color: var(--white);
+}
+
+.infographic-container header > h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 14px;
+  text-align: center;
 }
 
 a {
-  color: FFFFFF;
+  color: #FFFFFF;
   font-size: larger;
 }

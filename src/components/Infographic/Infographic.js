@@ -1,33 +1,48 @@
 import './Infographic.css'
-
+import { infographics } from '../../data/infographics'
+import { useTranslation } from 'react-i18next'
 
 const Infographic = () => {
+  const { t } = useTranslation()
 
-
+  const infographicComponents = infographics.map( graphic => {
+    return (
+      <fig className="col-md-5 d-flex justify-content-center align-items-center flex-column mx-3 mb-5">
+        <img className="w-50 " src={graphic.image} alt={graphic.caption}/>
+        <figcaption className="py-4 w-75 text-center fw-bold fs-4 lh-sm">
+          {t(graphic.caption)}
+        </figcaption>
+      </fig>
+    )
+  })
 
   return (
-    <div className="infographic-container row">
-      <div className="row">
-        <img className="col-md-6" src="../images/infographic-00005.png" alt="58%"/>
-        <img className="col-md-6" src="../images/infographic-00009.png" alt="58%"/>
-      </div>
-      <div className="row">
-        <img className="col-md-6" src="../images/infographic-00004.png" alt="Adults say.."/>
-        <img className="col-md-6" src="../images/infographic-00002.png" alt="More than 40%.."/>
-      </div>
-      <div className="row">
-        <img className="col-md-12" src="../images/infographic-00003.png" alt="Our Impact"/>
-      </div>
-      <div className="row">
-        <img className="col-md-6" src="../images/infographic-00008.png" alt="33 states"/>
-        <img className="col-md-6" src="../images/infographic-00007.png" alt="Diverse asian immigrants"/>
-      </div>
-      <div className="row">
-        <img className="col-md-6" src="../images/infographic-00001.png" alt="33 states"/>
-        <img className="col-md-6" src="../images/infographic-00006.png" alt="Diverse asian immigrants"/>
-      </div>
-      
-    </div>
+    <>
+      <section className="infographic-container row d-flex justify-content-center">
+        <header>
+          <h2>
+            {t('understanding')}
+          </h2>
+        </header>
+
+        <div className="row mt-4 d-flex flex-wrap justify-content-evenly">
+          {infographicComponents.slice(0,2)}
+        </div>
+      </section>
+
+      <section className="infographic-container row d-flex justify-content-center">
+        <header>
+          <h2>
+            {t('OUR IMPACT')}
+          </h2>
+        </header>
+
+        <div className="row mt-4 d-flex flex-wrap justify-content-evenly">
+          {infographicComponents.slice(2,4)}
+        </div>
+        
+      </section>
+    </>
   );
 }
 

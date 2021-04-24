@@ -1,8 +1,38 @@
 export const resources = {
   en: {
     translation: {
+      //Header 
       "Select Language": "Select Language",
       "Donate": "DONATE",
+      // Infographics
+      "understanding": "UNDERSTANDING THE PROBLEM",
+      "percent58": "58% of Asian adults say it's now more common for people to express racially insensitive views than before Covid.",
+      "fourAdults": "More than 40% of the people stuck in the family visa backlogs are from Asia",
+      "OUR IMPACT": "OUR IMPACT",
+      "oneOfThree": "Helping the 97,000 Asian immigrants in the Washington D.C. and nearby areas with the intimidating naturalization process.",
+      "states": "Partnering with more than 160 organizations in 33 states to foster community and advocacy",
+      
+      // Accordion + What we do
+      "How AJ Helps": "HOW ADVANCING JUSTICE HELPS",
+      "LEADERSHIP":"LEADERSHIP",
+      "leadership text":"We connect communities through our leadership in coalitions at the city, state, and national levels.",
+      "DIRECT SUPPORT":"DIRECT SUPPORT",
+      "direct text":"We strengthen roots by increasing visibility of our community and advocating family immigration.",
+      "ADVOCACY":"ADVOCACY",
+      "advocacy text":"We work to defend, protect, and advance the rights fo the AAPI and other communities at all levels of government.",
+      "BYSTANDER INTERVENTION TRAININGS":"BYSTANDER INTERVENTION TRAININGS",
+      "bystander trainings text":"We equip community members with strategies to combat anti-Asian hate and harassment.",
+      "CIVIC ENGAGEMENT": "CIVIC ENGAGEMENT",
+      "civic engagement text":"We grow power and mobilize for racial equity year round through our civic engagement efforts.",
+      "IMMIGRATION":"IMMIGRATION RIGHTS",
+      "immigration rights text":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
+      "DONATE":"DONATE TODAY",
+      "Help stand":"Help stand up against hate",
+
+      // Success Stories
+      "Successes":"SUCCESS STORIES",
+
+      // Organization Links
       "Our Organizations": "OUR ORGANIZATIONS",
       "Click Below": "CLICK BELOW to visit our affiliates" ,
       "Advancing Justice": "Advancing Justice",
@@ -12,48 +42,11 @@ export const resources = {
       "Los Angeles": "Los Angeles",
       "Donate Today": "DONATE TODAY",
       "AAAJ": "Asian Americans Advancing Justice",
+
+      //Footer
       "rights": "Some rights reserved",
       "Creative Commons": "All images used are licensed under the Creative Commons License.",
       "Learn More": "Please contact your local affiliate to learn more about our work.",
-      
-      "How AJ Helps": "HOW ADVANCING JUSTICE HELPS",
-      "Leadership":"LEADERSHIP",
-      "Leadership Desc": "We equip community members with strategies to combat anti-Asian hate and harassment.",
-      "Support": "DIRECT SUPPORT",
-      "Support Desc":"We equip community members with strategies to combat anti-Asian hate and harassment.",
-      "Advocacy": "ADVOCACY",
-      "Advocacy Desc":"We connect communities through our leadership in coalitions at the city, state, and national levels.",
-      "Training": "BYSTANDER INTERVENTION TRAININGS",
-      "Training Desc":"We equip community members with strategies to combat anti-Asian hate and harassment.",
-      "Engagement":"CIVIC ENGAGEMENT",
-      "Engagement Desc":"We grow power and mobilize for racial equity year round through our civic engagement efforts.",
-      "Immigration":"IMMIGRATION RIGHTS",
-      "Immigration Desc":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
-      "Stand Up": "Help stand up against hate",
-      "Successes":"SUCCESSES",
-
-      "leadership":"leadership",
-      "direct support":"direct support",
-      "advocacy":"advocacy",
-      "bystander trainings":"bystander trainings",
-      "civic engagement": "civic engagement",
-      "immigration rights": "immigration rights",
-
-      "LEADERSHIP":"LEADERSHIP",
-      "DIRECT SUPPORT":"DIRECT SUPPORT",
-      "ADVOCACY":"ADVOCACY",
-      "CIVIC ENGAGEMENT": "CIVIC ENGAGEMENT",
-      "BYSTANDER INTERVENTION TRAININGS":"BYSTANDER INTERVENTION TRAININGS",
-      "IMMIGRATION":"IMMIGRATION",
-      "leadership text":"We connect communities through our leadership in coalitions at the city, state, and national levels.",
-      "direct text":"We strengthen roots by increasing visibility of our community and advocating family immigration.",
-      "advocacy text":"We work to defend, protect, and advance the rights fo the AAPI and other communities at all levels of government.",
-      "bystander trainings text":"We equip community members with strategies to combat anti-Asian hate and harassment.",
-      "civic engagement text":"We grow power and mobilize for racial equity year round through our civic engagement efforts.",
-      "immigration rights text":"Immigration continues to be a significant, current, life-affecting issue for AAPIs across the country.",
-
-       "DONATE":"DONATE TODAY",
-      "Help stand":"Help stand up against hate"
     }
   },
   hi: {
