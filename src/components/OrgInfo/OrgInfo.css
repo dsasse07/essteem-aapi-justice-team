@@ -121,8 +121,8 @@ margin-bottom: 10px;
 }
 
 .buttonStyle{
-  width: 409px;
-  height: 193px;
+  /* width: 409px;
+  height: 193px; */
   background: #DA6810 0% 0% no-repeat padding-box;
   border-radius: 47px;
   opacity: 1;

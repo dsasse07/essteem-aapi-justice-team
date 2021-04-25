@@ -161,8 +161,8 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
             </div>
           </div>
           
-          <div className="row">
-              <button className="buttonStyle">
+          <div className="d-flex justify-content-center align-items-center">
+              <button className="buttonStyle py-2 px-5">
                 <a href="https://secure.donationpay.org/aajc/">
                   <span className="buttonText">
                     {t('DONATE')}
