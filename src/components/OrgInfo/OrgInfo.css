@@ -9,17 +9,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90px;
   margin-bottom: 80px;
+  padding: 1.2rem 0;
 }
 .info-row{
   max-width: 1100px;
 }
 
 .org-info-container header > h2 {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   font-weight: 800;
   padding: 14px;
+  text-align: center;
 }
 
 .org-info-container button:hover,
@@ -135,7 +136,7 @@ margin-bottom: 10px;
 
 .buttonStyle{
   width: 409px;
-  height: 93px;
+  height: 193px;
   background: #DA6810 0% 0% no-repeat padding-box;
   border-radius: 47px;
   opacity: 1;

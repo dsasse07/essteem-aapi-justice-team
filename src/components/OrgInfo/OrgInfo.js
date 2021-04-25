@@ -81,7 +81,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFive">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-              {t('BYSTANDER INTERVENTION TRAININGS')}
+              {t('TRAINING')}
               </button>
             </h2>
             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -93,7 +93,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSix">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-              {t('IMMIGRATION RIGHTS')}
+              {t('IMMIGRATION')}
               </button>
             </h2>
             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -125,7 +125,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
         </header>
 
         <div className="container info-row">
-          <div className="row align-items-center info-row">
+          <div className="row d-flex align-items-start justify-content-center info-row">
             <div className="col iconPosition">
               <img src={leadershipIcon} alt="Leadership logo" className="photo" />
               <div className="title">{t('LEADERSHIP')}</div>
@@ -143,7 +143,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
             </div>
           </div>
 
-          <div className="row align-items-center info-row">
+          <div className="row d-flex align-items-start justify-content-center info-row">
             <div className="col iconPosition">
               <img src={trainingIcon} alt="Training logo" className="photo"/>
               <div className="title">{t('BYSTANDER INTERVENTION TRAININGS')}</div>
@@ -159,11 +159,18 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
               <div className="title">{t('IMMIGRATION')}</div>
               <div className="text">{t('immigration rights text')}</div>
             </div>
-
-            <div className="row">
-              <button className="buttonStyle"><a href="https://secure.donationpay.org/aajc/"> <span className="buttonText">{t('DONATE')}</span><br /> {t('Help stand')}</a></button>
-            </div>
-
+          </div>
+          
+          <div className="row">
+              <button className="buttonStyle">
+                <a href="https://secure.donationpay.org/aajc/">
+                  <span className="buttonText">
+                    {t('DONATE')}
+                  </span>
+                  <br /> 
+                  {t('Help stand')}
+                </a>
+              </button>
           </div>
         </div>
       </section>

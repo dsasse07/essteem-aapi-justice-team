@@ -16,6 +16,8 @@ const App = () => {
     localStorage.getItem('i18nextLng') || 'en'
   )
 
+  document.body.dir = i18n.dir()
+
   const handleLangChange = (e) => {
     console.log(e.target.value)
     changeLanguage(e.target.value)

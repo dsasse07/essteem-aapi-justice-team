@@ -7,9 +7,9 @@ const Infographic = () => {
 
   const infographicComponents = infographics.map( graphic => {
     return (
-      <figure key ={graphic.caption} className="col-md-5 d-flex justify-content-center align-items-center flex-column mx-3 mb-5">
-        <img className="w-50 " src={graphic.image} alt={graphic.caption}/>
-        <figcaption className="py-4 w-75 text-center fw-bold fs-4 lh-sm">
+      <figure key ={graphic.caption} id={graphic.caption} className="col-md-5 d-flex justify-content-start align-items-center flex-column mx-3 mb-5">
+        <img className="graphic-image" src={graphic.image} alt={graphic.caption}/>
+        <figcaption htmlFor={graphic.caption} className="py-4 w-75 text-center fw-bold fs-4 lh-sm">
           {t(graphic.caption)}
         </figcaption>
       </figure>
