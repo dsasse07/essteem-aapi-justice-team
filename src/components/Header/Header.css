@@ -17,6 +17,8 @@ header {
   width: 50vw;
   max-width: 250px;
   margin: 8px 8px;
+  object-fit: contain;
+  max-height: 150px;
 }
 
 header a {
