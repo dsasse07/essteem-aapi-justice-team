@@ -9,6 +9,7 @@ const SocialLink = ({url, title}) => {
       target="_blank"
       rel="noreferrer"
       className="social-link"
+      aria-label={title}
     >
       {icons[title]}      
       <span>{title}</span>

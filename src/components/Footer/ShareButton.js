@@ -40,7 +40,12 @@ const ShareButton = () => {
 
   return (
     <nav className="menu">
-      <button className="menu-open-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button 
+        className="menu-open-button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        aria-label="Share Page"
+      >
         <i className="bi bi-share-fill share-icon"></i>
       </button>
 
