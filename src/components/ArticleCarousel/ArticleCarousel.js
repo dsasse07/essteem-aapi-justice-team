@@ -26,7 +26,7 @@ const ArticleCarousel = () => {
         )
 
   return (
-    <section>
+    <section className="my-3">
       <Carousel indicators={true} nextLabel='' prevLabel=''>
           {articleContent}
       </Carousel>
