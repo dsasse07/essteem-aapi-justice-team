@@ -21,7 +21,7 @@ const App = () => {
   const handleLangChange = (e) => {
     console.log(e.target.value)
     changeLanguage(e.target.value)
-    setCurrentLanguage(e.target.value)
+    setCurrentLanguage(e.target.value) 
   }
   
   const changeLanguage = (lng) => {
