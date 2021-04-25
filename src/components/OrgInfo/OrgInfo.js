@@ -146,7 +146,7 @@ const OrgInfo = ({currentLanguage, onChangeLang}) => {
           <div className="row d-flex align-items-start justify-content-center info-row">
             <div className="col iconPosition">
               <img src={trainingIcon} alt="Training logo" className="photo"/>
-              <div className="title">{t('BYSTANDER INTERVENTION TRAININGS')}</div>
+              <div className="title">{t('TRAINING')}</div>
               <div className="text">{t('bystander trainings text')}</div>
             </div>
             <div className="col iconPosition">
