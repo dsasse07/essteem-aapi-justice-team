@@ -22,7 +22,7 @@ export const resources = {
       "ADVOCACY":"ADVOCACY",
       "advocacy text":"We work to defend, protect, and advance the rights fo the AAPI and other communities at all levels of government.",
       "TRAINING":"TRAINING",
-      "bystander trainings text":"We equip community members with strategies to combat anti-Asian hate and harassment such as bystandar intervention training.",
+      "bystander trainings text":"We equip community members with strategies to combat anti-Asian hate and harassment such as bystander intervention training.",
       "CIVIC ENGAGEMENT": "CIVIC ENGAGEMENT",
       "civic engagement text":"We grow power and mobilize for racial equity year round through our civic engagement efforts.",
       "IMMIGRATION":"IMMIGRATION RIGHTS",
