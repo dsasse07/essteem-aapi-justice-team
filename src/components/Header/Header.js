@@ -32,7 +32,7 @@ const Header = ({currentLanguage, onChangeLang}) => {
   
   return isMobile ? 
     (
-      <header className="row">
+      <header className="row header-container">
         <label className="hidden" htmlFor="langSelect">
           {t('Select Language ')}
         </label>
@@ -59,7 +59,7 @@ const Header = ({currentLanguage, onChangeLang}) => {
     )
   :
     (
-      <header className="row desktop">
+      <header className="row desktop header-container">
         <div className="col desktop">
           <img src={logo} alt="Advancing Justice Logo" />
         </div>
