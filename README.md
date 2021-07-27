@@ -3,6 +3,8 @@
 
 ![AAJC Logo](https://i.imgur.com/XOD9l7T.png)
 
+[Demo Video](https://youtu.be/20bi-eMu-_s) | [Deployed Url](https://aapi-justice-team.netlify.app/)
+
 ## An Essteem Hackathon
 ### Justice Team
 ##### Daniel Sasse, Aaron Amodt, LaToya Legemah, Natalie Kalaydjian, Claudette Carino 
