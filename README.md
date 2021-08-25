@@ -66,9 +66,9 @@ In viewing the current Advancing Justice site, we wanted to make clear our user 
 ### Meet The Team
 
 * Design
- * [Natalie Kalaydjian](http://nataliekdesigns.com)
- * [Claudette Carino](https://www.claudettecarino.page)]
+  * [Natalie Kalaydjian](http://nataliekdesigns.com)
+  * [Claudette Carino](https://www.claudettecarino.page)
 * Engineering
- * [Daniel Sasse](https://github.com/dsasse07)
- * [Aaron Amodt](https://github.com/amodttech)
- * [LaToyah Legemah](https://github.com/latoyale)
+  * [Daniel Sasse](https://github.com/dsasse07)
+  * [Aaron Amodt](https://github.com/amodttech)
+  * [LaToyah Legemah](https://github.com/latoyale)
