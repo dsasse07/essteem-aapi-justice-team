@@ -6,8 +6,8 @@
 [Demo Video](https://youtu.be/20bi-eMu-_s) | [Deployed Url](https://aapi-justice-team.netlify.app/)
 
 ## An Essteem Hackathon
-### Justice Team
-##### Daniel Sasse, Aaron Amodt, LaToya Legemah, Natalie Kalaydjian, Claudette Carino 
+## The Justice Team:
+### Daniel Sasse, Aaron Amodt, LaToya Legemah, Natalie Kalaydjian, Claudette Carino 
 
 ---
 
@@ -65,75 +65,10 @@ In viewing the current Advancing Justice site, we wanted to make clear our user 
 
 ### Meet The Team
 
-<table>
-    <tr>
-        <td align="center">
-          <a href="https://github.com/dsasse07">
-            <img 
-              src="./public/images/Readme-images/danny.png" 
-              width="200px;" 
-              alt="Daniel Sasse"
-            />
-            <br />
-            <b>Daniel Sasse</b>
-          </a>
-          <br />
-          💻 🐛 📖 💡
-        </td>
-        <td align="center">
-          <a href="https://github.com/amodttech">
-            <img 
-              src="./public/images/Readme-images/aaron.png"
-              width="200px;"
-              alt="Aaron Amodt"
-            />    
-              <br />
-              <b>Aaron Amodt</b>
-          </a>
-          <br />
-          💻 🐛 💡 📖
-        </td>
-        <td align="center">
-          <a href="https://github.com/latoyale">
-            <img 
-              src="./public/images/Readme-images/latoya.png"
-              width="200px;"
-              alt="LaToya Legemah"
-            />
-            <br />
-            <b>LaToya Legemah</b>
-          </a>
-          <br />
-          💻 🐛 💡 📖
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <a href="http://nataliekdesigns.com/">
-            <img 
-              src="./public/images/Readme-images/nat.png"
-              width="200px;"
-              alt="Natalie Kalaydjian"
-            />
-            <br />
-            <b>Natalie Kalaydjian</b>
-          </a>
-          <br />
-          🎨 🐛 💡 📖
-        </td>
-        <td align="center">
-          <a href="https://www.claudettecarino.page/">
-            <img 
-              src="./public/images/Readme-images/claudette.png"
-              width="200px;"
-              alt="Claudette Carino"
-            />
-            <br />
-            <b>Claudette Carino</b>
-          </a>
-          <br />
-          🎨 🐛 💡 📖
-        </td>
-    </tr>
-</table>
-
+* Design
+ * [Natalie Kalaydjian](http://nataliekdesigns.com)
+ * [Claudette Carino](https://www.claudettecarino.page)]
+* Engineering
+ * [Daniel Sasse](https://github.com/dsasse07)
+ * [Aaron Amodt](https://github.com/amodttech)
+ * [LaToyah Legemah](https://github.com/latoyale)
