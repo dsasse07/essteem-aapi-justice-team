@@ -7,11 +7,11 @@
 
 ## An Essteem Hackathon
 ## The Justice Team:
-### Daniel Sasse, Aaron Amodt, LaToya Legemah, Natalie Kalaydjian, Claudette Carino 
+Daniel Sasse, Aaron Amodt, LaToya Legemah, Natalie Kalaydjian, Claudette Carino 
 
 ---
 
-__Table of Contents__
+## Table of Contents
 * [Purpose](#purpose)
   * [Original Webpage](#original)
 * [Problem Criteria](#problem-criteria)
